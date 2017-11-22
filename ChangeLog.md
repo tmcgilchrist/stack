@@ -124,6 +124,8 @@ Other enhancements:
 * Detect when user changed .cabal file instead of package.yaml. This
   was implemented upstream in hpack. See
   [#3383](https://github.com/commercialhaskell/stack/issues/3383).
+* GHC bindists can now be identified by their SHA256 checksum in addition to
+  their SHA1 checksum, allowing for more security in download.
 
 Bug fixes:
 
